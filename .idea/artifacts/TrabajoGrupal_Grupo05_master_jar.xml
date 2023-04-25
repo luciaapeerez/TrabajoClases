@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TrabajoGrupal_Grupo05-master:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrabajoGrupal_Grupo05_master_jar</output-path>
+    <root id="archive" name="TrabajoGrupal_Grupo05-master.jar">
+      <element id="module-output" name="TrabajoGrupal_Grupo05-master" />
+    </root>
+  </artifact>
+</component>
