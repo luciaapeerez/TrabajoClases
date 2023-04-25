@@ -71,7 +71,7 @@ public class Puerto implements Serializable {
         }
         return null;
     }
-    public Contenedor información_puerto(int peso, int numHub){
+    public Contenedor informacion_puerto(int peso, int numHub){
         for(int i=0; i<3; i++){
             if(i == numHub){
                 Contenedor c1 = P[i].informacion(peso);
