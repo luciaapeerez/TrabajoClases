@@ -108,7 +108,7 @@ public class Hub implements Serializable {
         }
         return total;
     }
-    public Contenedor información(int peso, int numHub){
+    public Contenedor informacion(int peso){
         for(int i=0; i<10; i++){
             for(int j=0; j<12; j++){
                 if(M[i][j].getPeso()>=peso){

@@ -59,7 +59,7 @@ public class Main {
         int numID2 = sc.nextInt();
         System.out.println(hub1.mostrarDatos(numID2));
         System.out.println("Informacion:");
-        System.out.println(hub1.información(100, 1));
+        System.out.println(hub1.informacion(130));
     }
 }
 
