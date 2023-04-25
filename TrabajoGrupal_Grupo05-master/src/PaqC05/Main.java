@@ -1,3 +1,4 @@
+//Lucía Pérez Abad
 package PaqC05;
 
 import java.util.Scanner;
@@ -57,6 +58,8 @@ public class Main {
         System.out.println("Introduce el id del contenedor que desees");
         int numID2 = sc.nextInt();
         System.out.println(hub1.mostrarDatos(numID2));
+        System.out.println("Informacion:");
+        System.out.println(hub1.información(100, 1));
     }
 }
 

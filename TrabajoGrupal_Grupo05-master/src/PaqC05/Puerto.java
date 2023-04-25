@@ -1,3 +1,4 @@
+//Lucía Pérez Abad
 package PaqC05;
 
 import java.io.Serializable;
@@ -66,6 +67,17 @@ public class Puerto implements Serializable {
             Contenedor datos = P[i].mostrarDatos(numID);
             if(datos != null){
                 return datos;
+            }
+        }
+        return null;
+    }
+    public Contenedor información_puerto(int peso, int numHub){
+        for(int i=0; i<3; i++){
+            if(i == numHub){
+                Contenedor c1 = P[i].información(peso, numHub);
+                if(c1!=null){
+                    return c1;
+                }
             }
         }
         return null;
